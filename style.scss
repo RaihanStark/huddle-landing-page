@@ -24,6 +24,15 @@ body {
   font-weight: 700;
 }
 
+.btn-brand {
+  background-color: $Pink;
+  color: white;
+  font-family: $font-family-body;
+  font-weight: 700;
+  padding: 1em 4em;
+  border-radius: 2em;
+}
+
 .header {
   font-family: $font-family-heading;
   background-image: url(../../images/bg-hero-desktop.svg);
@@ -42,6 +51,13 @@ body {
       font-weight: 400;
     }
   }
+}
+
+.feature {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
 }
 
 @media only screen and (min-width: 1200px) {
